@@ -4,10 +4,10 @@ import decimal
 import math
 
 # Import Main EA Excel
-df_main = pd.read_excel("EA_Data.xlsx")
+df_main = pd.read_excel(EA_Data.xlsx)
 
 # Import Input File
-df_input = pd.read_csv("Test_ini_v0.csv")
+df_input = pd.read_csv(Test_ini_v0.csv)
 
 # Extract Values from Input File
 fit = int(df_input.iloc[0][0].split(":")[1])
