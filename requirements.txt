@@ -1,4 +1,4 @@
-pip == 23.2
 pandas
 decimal
 math
+
