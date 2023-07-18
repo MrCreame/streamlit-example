@@ -1,7 +1,3 @@
-import pandas as pd
-import decimal
-import math
-
 # Import Main EA Excel
 df_main = pd.read_excel(EA_Data.xlsx)
 
